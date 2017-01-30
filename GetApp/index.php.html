@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app=" GetApp">
+		<title>GetApp</title>
+		<head>
+						<meta charset="utf-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1">
+						<link rel="stylesheet" type="text/css" href="./css/editable.css">
+			</head>
+				<form method="POST">
+					<body ng-controller="filCtrl">
+						<div class ="layout">
+						<h1></h1>
+									<div class="box"><label>Enter Event: <input type="text" id="textbox" ng-model="filtext">
+									</label><input type="button" id="button" value="Post"></input>
+
+									</div>
+									<br>
+									<table class="tab" border="1">
+										<tr>
+											<th>Event Date:</th>
+											<th>Event Name:</th>
+										</tr>
+										<tr>
+												<td>
+												<div class="board1"> <p> </p>
+
+												</div>
+											</td>
+											<td>
+											<div class="board2"> <p> </p>
+
+											</div>
+										</td>
+									</tr>
+
+								</table>
+					</body>
+				</form>
+
+				</div>
+								<script>
+
+				<script src="./js/angular.min.js"></script>
+				<script src="./js/editable.js"></script>
+</html>
